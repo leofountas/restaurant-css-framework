@@ -5,7 +5,7 @@
 .navbar {
     background-color: rgb(44, 44, 44);
     height: 80px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 16px;
 }
 
@@ -87,4 +87,29 @@ svg {
     margin-left: 10px;
     color:white;
     background-color: rgb(227, 56, 37);
+}
+
+
+@media (max-width: 500px) {
+    p {
+        font-size: 14px;
+    }
+
+    .rounded h1, h2 {
+        font-size: 15px;
+    }
+    
+    .container.row {
+        padding-top: 200px;
+    }
+
+    .navbar {
+        margin: 0;
+        height: fit-content;
+        border-radius: 0;
+    }
+
+    .container .navbar-brand {
+        margin-right: 0;
+    } 
 }
