@@ -2,15 +2,14 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body .container {
-    margin: 0;
-    width: 100%;
-}
-
 .navbar {
     background-color: rgb(44, 44, 44);
     height: 80px;
     border-radius: 16px;
+}
+
+ .navbar-brand {
+    margin-right: 0;
 }
 
 .offcanvas-body .nav-link {
@@ -59,6 +58,7 @@ h1 {
 .list-group-item {
     background-color: rgb(44, 44, 44);
     color: white;
+    margin: 5px;
 }
 
 .badge {
@@ -70,12 +70,12 @@ h1 {
 
 
 
-
-
-
-
 @media (min-width: 650px) {
     #pizzabackground {
         height: 450px;
+    }
+
+    .list-group-item {
+        margin: 0px;
     }
 }
