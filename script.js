@@ -1,12 +1,12 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     const photos = [
-        'images/pizzarucola1.png',
-        'images/pizzapineapple2.png',
-        'images/pizzalul.png',
-        'images/cookingpizza.png',
         'images/margherita.png',
         'images/margherita2.0.png',
+        'images/pizzalul.png',
+        'images/cookingpizza.png',
+        'images/pizzarucola1.png',
+        'images/pineapplepizza.png',
         'https://via.placeholder.com/600x400?text=Photo+7',
         'https://via.placeholder.com/600x400?text=Photo+8',
         'https://via.placeholder.com/600x400?text=Photo+9',
